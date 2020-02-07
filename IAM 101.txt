@@ -1,0 +1,20 @@
+Identity Access management  (IAM) offers the following features
+  * Centralised control of your aws account
+  * Shared access to your aws account
+  *  Granular permission
+  * Identity federation (including active directory, facebook, linkedin etc)
+  * Multifactor authentication
+  * provides  temporary access for users/devices and services where necessary
+  * allows you to setup your own password rotation policy
+  * Integrates with many different AWS services
+  * Supports  PCI DSS compliance. (credit card)
+
+
+  ### Key Terminology for IAM
+
+1)  Users  : individual person 
+2) Groups : Collection of users. Each user in the group will inherit the permission of the group.
+3) Policies :  Policies are made up of documents, called policy documents.These documents are in a format called
+JSON and they give permission as to what a  User/Group/Role is able to do.
+
+4)Roles: You create role and assign them to AWS Resources.
