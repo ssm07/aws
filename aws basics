@@ -1,0 +1,10 @@
+
+* Difference between region, an availability zone and  an edge location
+
+A region is  a physical location in the world which consists of two  or more availability zone (AZs)
+
+An AZ is one or more discrete data centers, each with  redundant power networking and connectivity, housed in separate facilities.
+
+
+Edge locations are endpoints for aws  which  are used for caching content. Typically this consists of CloudFront, Amazon`s Content Delivery Network (CDN)
+ 
